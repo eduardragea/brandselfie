@@ -1,0 +1,176 @@
+body {
+  background: var(--turquoiselime, linear-gradient(117deg, #22EAEB 0%, #D2FCAD 103.47%));
+  display: flex;
+  height: 1024px;
+  padding: 0px 12px 40px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+}
+
+.all {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+
+.text {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  background-color: white;
+  width: 136px;
+  height: 136px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  align-self: stretch;
+  color: var(--Not-Black, #323232);
+  text-align: center;
+  font-family: MuseoModerno;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 40px */
+  letter-spacing: -1.2px;
+}
+
+.content {
+  width: 430px;
+  color: var(--Not-Black, #323232);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 25.6px */
+letter-spacing: 1.6px;
+}
+
+#first::after {
+    content: "\a";
+    white-space: pre;
+}
+
+#after {
+  color: var(--Not-Black, #323232);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 1.6px;
+}
+
+h4 {
+  color: var(--Not-Black, #323232);
+
+/* H4 */
+font-family: Raleway;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 133.333% */
+letter-spacing: 1.2px;
+}
+
+table {
+  display: flex;
+  width: 360px; /* You may adjust this width as needed */
+  padding: 16px 0px;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  gap: 8px;
+}
+
+label {
+  /* width: 360px; Remove this fixed width */
+  color: var(--Not-Black, #323232);
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+}
+
+.input {
+  display: flex;
+width: 384px;
+padding: 10px 8px;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid var(--grey-1, #D0D5DD);
+background: #F8F8F8;
+color: grey;
+
+/* body */
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+letter-spacing: 1.4px;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #0a0a23; /* Same background color as other elements */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px; /* Match the border radius used elsewhere */
+  padding: 15px 30px; /* Adjust padding to match other elements */
+  min-height: 40px; /* Adjust height to match other elements */
+  min-width: 160px; /* Adjust width to match other elements */
+  font-family: "Open Sans"; /* Match font family */
+  font-size: 16px; /* Match font size */
+  font-weight: 700; /* Match font weight */
+  letter-spacing: 0.07em; /* Match letter spacing */
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s ease; /* Add smooth transition on background color change */
+}
+
+.button:hover {
+  background-color: #09091f; /* Darken the background color on hover */
+}
+
+.follow {
+  display: flex;
+width: 113px;
+padding-top: 8px;
+justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
+gap: 8px;
+flex-wrap: wrap;
+}
+
+a {
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+}
+
+
+img {
+  width: auto;
+  height: 120px;
+}
