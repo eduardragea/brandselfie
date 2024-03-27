@@ -2,14 +2,19 @@ body {
   background: var(--turquoiselime, linear-gradient(117deg, #22EAEB 0%, #D2FCAD 103.47%));
   display: flex;
   padding: 0;
-  margin: 0; /* Remove default body margin */
-  min-height: 100vh; /* Ensure body covers the entire viewport height */
+  margin: 0;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
   flex-shrink: 0;
+  background-size: cover; /* Ensure background covers the entire viewport */
+  background-position: center; /* Center the background */
 }
+
+/* Other styles remain unchanged */
+
 
 .all {
   display: flex;
