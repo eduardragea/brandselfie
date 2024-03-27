@@ -229,8 +229,10 @@ img {
 }
 
 /* Add media query for landscape mode */
+/* Add media query for landscape mode */
 @media screen and (orientation: landscape) {
   body {
+    background: var(--turquoiselime, linear-gradient(117deg, #22EAEB 0%, #D2FCAD 103.47%));
     background-size: cover; /* Ensure background covers the entire viewport in landscape mode */
     background-position: center; /* Center the background */
   }
