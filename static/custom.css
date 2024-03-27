@@ -1,8 +1,9 @@
 body {
-  background: var(--turquoiselime, linear-gradient(117deg, #22EAEB 0%, #D2FCAD 103.47%));
+  background: var(--turquoiselime, linear-gradient(117deg, #22EAEB 0%, #D2FCAD 103.47%)) fixed; /* Set background to cover entire viewport and fixed */
   display: flex;
-  height: 1024px;
-  padding: 0px 12px 40px 12px;
+  min-height: 100vh; /* Set minimum height of body to 100% of viewport height */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
   flex-direction: column;
   justify-content: center;
   align-items: center;
