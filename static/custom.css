@@ -11,7 +11,8 @@ body {
   flex-shrink: 0;
   background-size: cover; /* Ensure background covers the entire viewport */
   background-position: center; /* Center the background */
-  overflow-x: hidden
+  overflow: hidden
+  width: 100%;
 }
 
 /* Other styles remain unchanged */
