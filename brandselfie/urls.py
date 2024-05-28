@@ -23,4 +23,5 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('new_email/', views.new_email, name='new_email'),
     path('thank_you/', views.thank_you, name='thank_you'),
+    path('api/', include('myapp.urls')),
 ]
